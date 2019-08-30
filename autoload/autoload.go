@@ -1,11 +1,11 @@
 package autoload
 
 /*
-	You can just read the .env file on import just by doing
+	You can just import this
 
 		import _ "github.com/jhaoheng/printhello/autoload"
 
-	And bob's your mother's brother
+	And terminal will show "hello"
 */
 
 import "github.com/jhaoheng/printhello"
