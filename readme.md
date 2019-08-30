@@ -42,3 +42,9 @@ import (
 func main() {
 }
 ```
+
+# 關於 cmd
+
+目的建立 pkg 的執行檔
+下載為 github.com/jhaoheng/printhello/cmd/printhello
+執行 `printhello -name MAX`
