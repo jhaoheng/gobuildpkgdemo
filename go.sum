@@ -1,1 +1,2 @@
-github.com/jhaoheng/gobuildpkgdemo v1.0.0/go.mod h1:GPxByqnTjdDoVMTpMch+VqLFOzujuLLZwLSv263lCus=
+github.com/jhaoheng/gobuildpkgdemo/pkg v1.0.0-20190903131512-e7427e2a334b h1:6QISb2ll+Lb/54svMS4zCxAC5TFfYAYwD/uFlhuHDhg=
+github.com/jhaoheng/gobuildpkgdemo/pkg v1.0.0-20190903131512-e7427e2a334b/go.mod h1:piEvm4sVhb6p8ymN3Ii+YOb9/asU5pLXc38D/AEBlbE=
