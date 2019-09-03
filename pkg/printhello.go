@@ -1,4 +1,4 @@
-package printhello
+package pkg
 
 import "fmt"
 

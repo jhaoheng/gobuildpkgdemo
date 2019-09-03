@@ -3,8 +3,9 @@ package main
 import (
 	"flag"
 	"fmt"
-	"github.com/jhaoheng/printhello"
 	"os"
+
+	"github.com/jhaoheng/gobuildpkgdemo/pkg"
 )
 
 func main() {
@@ -18,7 +19,7 @@ func main() {
 	flag.Parse()
 
 	if len(*name) > 0 {
-		printhello.Printhello()
+		pkg.Printhello()
 		fmt.Println(*name)
 	}
 }
