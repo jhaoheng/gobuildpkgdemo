@@ -1,27 +1,7 @@
-# readme
-
-This is a sample about how to build a go pkg
-
-# how to build a pkg
-1. Env, if you not use `go module`, you could ignore it.
-    - `go mod init github.com/<group>/<project>`
-    - remember to fill the full path of git-project, if wrong, you will get wrong when you use `go mod download`.
-2. Write your PKG content & test it `go test`.
-3. git push & release it and use version as v1.0.0
-
-# how to use it with go module
-
-1. `go mod init {your_project_name}`
-2. Edit the go.mod file. Refer this format
-```
-module {your_project_name}
-require (
-    github.com/jhaoheng/printhello v1.0.0
-)
-go 1.12	
-```
-
-3. `go mod download` & Use `printhello.Printhello()` in the main.go.
+# how to use this pkg
+1. `go mod init <projectName>`
+2. 在 main 中 `import "github.com/jhaoheng/gobuildpkgdemo/pkg"`
+3. 使用 `pkg.Printhello()`
 4. `go run main.go`
 
 # 關於 autoload
